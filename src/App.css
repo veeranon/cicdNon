@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 60vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: calc(2rem + 2vmin);
+  font-weight: 600;
+  color: #222;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4875), 0 1px 24px rgba(0, 0, 0, 0.0875);
+  margin-top: -24px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /usr/share/nginx/html
+hooks:
+  BeforeInstall:
+    - location: /setup.sh
+
+  
+ 
+
